@@ -1,0 +1,336 @@
+CRITICAL - 2023-02-17 11:29:06 --> Invalid file: "category.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('category.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('category', [], true)
+ 3 APPPATH\Controllers\Category.php(11): view('category')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 11:43:02 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in E:\xampp\htdocs\app\Models\CategoryModel.php on line 13
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\CategoryModel.php(13): CodeIgniter\BaseModel->findAll('tbl_category')
+ 2 APPPATH\Controllers\Category.php(11): App\Models\CategoryModel->all_category()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 11:43:39 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in E:\xampp\htdocs\app\Models\CategoryModel.php on line 13
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\CategoryModel.php(13): CodeIgniter\BaseModel->findAll('tbl_category')
+ 2 APPPATH\Controllers\Category.php(11): App\Models\CategoryModel->all_category()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 11:44:51 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in E:\xampp\htdocs\app\Models\CategoryModel.php on line 13
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\CategoryModel.php(13): CodeIgniter\BaseModel->findAll('tbl_category')
+ 2 APPPATH\Controllers\Category.php(12): App\Models\CategoryModel->all_category()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 11:45:28 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in E:\xampp\htdocs\app\Models\CategoryModel.php on line 13
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\CategoryModel.php(13): CodeIgniter\BaseModel->findAll('tbl_category')
+ 2 APPPATH\Controllers\Category.php(12): App\Models\CategoryModel->all_category()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 11:45:56 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in E:\xampp\htdocs\app\Models\CategoryModel.php on line 9
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\CategoryModel.php(9): CodeIgniter\BaseModel->findAll('tbl_category')
+ 2 APPPATH\Controllers\Category.php(12): App\Models\CategoryModel->all_category()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:01:31 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in E:\xampp\htdocs\app\Models\CategoryModel.php on line 9
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\CategoryModel.php(9): CodeIgniter\BaseModel->findAll('tbl_category')
+ 2 APPPATH\Controllers\Category.php(12): App\Models\CategoryModel->all_category()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:02:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(233): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CategoryModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Category.php(12): App\Models\CategoryModel->all_category()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:03:39 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(233): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CategoryModel.php(9): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Category.php(10): App\Models\CategoryModel->all_category()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:05:01 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in E:\xampp\htdocs\app\Models\CategoryModel.php on line 9
+in SYSTEMPATH\BaseModel.php on line 601.
+ 1 APPPATH\Models\CategoryModel.php(9): CodeIgniter\BaseModel->findAll('tbl_category')
+ 2 APPPATH\Controllers\Category.php(10): App\Models\CategoryModel->all_category()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:13:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(233): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CategoryModel.php(9): CodeIgniter\BaseModel->findAll(0, 0)
+ 5 APPPATH\Controllers\Category.php(10): App\Models\CategoryModel->all_category()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:16:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(641): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(233): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CategoryModel.php(13): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Category.php(10): App\Models\CategoryModel->all_category()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:25:04 --> Invalid file: "add_category.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_category.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('add_category', [], true)
+ 3 APPPATH\Controllers\Category.php(46): view('add_category', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:27:56 --> Call to undefined function set_value()
+in APPPATH\Views\add_category.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('add_category', [], true)
+ 4 APPPATH\Controllers\Category.php(46): view('add_category', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:34:47 --> Call to undefined function set_value()
+in APPPATH\Views\add_category.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('add_category', [], true)
+ 4 APPPATH\Controllers\Category.php(46): view('add_category', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:42:02 --> Class "App\Controllers\CategoryModel" not found
+in APPPATH\Controllers\Category.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:43:43 --> Allowed fields must be specified for model: "App\Models\CategoryModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\CategoryModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Category.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:44:19 --> Class "App\Controllers\CategoryModel" not found
+in APPPATH\Controllers\Category.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:45:22 --> Call to undefined method App\Controllers\Category::save()
+in APPPATH\Controllers\Category.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:46:38 --> Call to undefined method App\Controllers\Category::save()
+in APPPATH\Controllers\Category.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:47:39 --> Call to undefined method App\Controllers\Category::save()
+in APPPATH\Controllers\Category.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:50:37 --> Call to undefined method App\Controllers\Category::save()
+in APPPATH\Controllers\Category.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:51:32 --> Call to undefined method App\Controllers\Category::save()
+in APPPATH\Controllers\Category.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:52:19 --> Call to undefined method App\Controllers\Category::save()
+in APPPATH\Controllers\Category.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:52:21 --> Call to undefined function set_value()
+in APPPATH\Views\add_category.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('add_category', [], true)
+ 4 APPPATH\Controllers\Category.php(46): view('add_category', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:52:25 --> Call to undefined function set_value()
+in APPPATH\Views\add_category.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('add_category', [], true)
+ 4 APPPATH\Controllers\Category.php(46): view('add_category', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:55:16 --> Call to undefined method App\Controllers\Category::save()
+in APPPATH\Controllers\Category.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:58:18 --> Class "App\Controllers\CategoryModel" not found
+in APPPATH\Controllers\Category.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 12:58:46 --> Allowed fields must be specified for model: "App\Models\CategoryModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\CategoryModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Category.php(37): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 13:03:51 --> Allowed fields must be specified for model: "App\Models\CategoryModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\CategoryModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Category.php(27): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 13:06:53 --> Allowed fields must be specified for model: "App\Models\CategoryModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\CategoryModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Category.php(37): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 13:09:33 --> Undefined variable $categories
+in APPPATH\Views\category.php on line 13.
+ 1 APPPATH\Views\category.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\category.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('category', [], true)
+ 5 APPPATH\Controllers\Category.php(46): view('category', [])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 13:23:48 --> Undefined variable $data
+in APPPATH\Controllers\Category.php on line 55.
+ 1 APPPATH\Controllers\Category.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Category.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->edit('3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-17 13:24:40 --> Class "App\Controllers\CategoryModel" not found
+in APPPATH\Controllers\Category.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-17 13:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-17 13:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-17 13:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-17 13:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-17 13:32:53 --> Undefined array key "category_id"
+in APPPATH\Views\edit_category.php on line 22.
+ 1 APPPATH\Views\edit_category.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'APPPATH\\Views\\edit_category.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('edit_category', [], true)
+ 5 APPPATH\Controllers\Category.php(76): view('edit_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Category->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-17 13:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-17 13:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-17 13:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
